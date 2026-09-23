@@ -24,6 +24,9 @@ Bachelor Cybersécurité — EPITA × École Polytechnique. Le programme couvre 
 
 ## Projets
 
+**[tpot-honeypot-analysis](https://github.com/AxlK78/tpot-honeypot-analysis)**
+Collecte et analyse de télémétrie d'attaques réseau, qualification d'IOCs et rétro-ingénierie statique (désassemblage, décompilation de binaires PE sous Ghidra).
+
 **[net1-topology-lab](https://github.com/AxlK78/net1-topology-lab)**
 Simulation GNS3 d'un réseau multi-entités : deux entreprises, deux FAI et un réseau domestique interconnectés, avec adressage public/privé réaliste, routage, NAT et pare-feu.
 
