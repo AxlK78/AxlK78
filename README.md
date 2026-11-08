@@ -21,11 +21,23 @@ Bachelor Cybersécurité — EPITA × École Polytechnique. Le programme couvre 
 ![GNS3](https://img.shields.io/badge/-GNS3-0B5FA5?style=for-the-badge&logo=cisco&logoColor=white)
 ![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 ![C](https://img.shields.io/badge/-C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Proxmox](https://img.shields.io/badge/-Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white)
+![OPNsense](https://img.shields.io/badge/-OPNsense-D94F00?style=for-the-badge&logo=opnsense&logoColor=white)
+![Ghidra](https://img.shields.io/badge/-Ghidra-C00000?style=for-the-badge&logoColor=white)
+![Kali Linux](https://img.shields.io/badge/-Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
 
 ## Projets
 
+### En cours
+
+**[cybersecurity-homelab](https://github.com/AxlK78/cybersecurity-homelab)**
+Homelab Proxmox VE (HP Z240, 32 Go) avec un pare-feu OPNsense qui route et filtre cinq zones isolées : SIEM (Wazuh), Services (Active Directory), postes clients, Attaque (Kali) et DMZ (applis web vulnérables). Journal de bord détaillé de la construction.
+
+### Réalisés
+
 **[tpot-honeypot-analysis](https://github.com/AxlK78/tpot-honeypot-analysis)**
-Collecte et analyse de télémétrie d'attaques réseau, qualification d'IOCs et rétro-ingénierie statique (désassemblage, décompilation de binaires PE sous Ghidra).
+Déploiement du honeypot T-Pot 24.04 sur un VPS exposé (UFW + Tailscale), analyse de plus de 160 000 attaques en 70 h et rétro-ingénierie sous Ghidra d'un binaire WannaCry capturé via DoublePulsar.
 
 **[net1-topology-lab](https://github.com/AxlK78/net1-topology-lab)**
 Simulation GNS3 d'un réseau multi-entités : deux entreprises, deux FAI et un réseau domestique interconnectés, avec adressage public/privé réaliste, routage, NAT et pare-feu.
