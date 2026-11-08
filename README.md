@@ -21,6 +21,7 @@ Bachelor Cybersécurité — EPITA × École Polytechnique. Le programme couvre 
 ![GNS3](https://img.shields.io/badge/-GNS3-0B5FA5?style=for-the-badge&logo=cisco&logoColor=white)
 ![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 ![C](https://img.shields.io/badge/-C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![C++](https://img.shields.io/badge/-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Proxmox](https://img.shields.io/badge/-Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white)
 ![OPNsense](https://img.shields.io/badge/-OPNsense-D94F00?style=for-the-badge&logo=opnsense&logoColor=white)
@@ -35,6 +36,9 @@ Bachelor Cybersécurité — EPITA × École Polytechnique. Le programme couvre 
 Homelab Proxmox VE (HP Z240, 32 Go) avec un pare-feu OPNsense qui route et filtre cinq zones isolées : SIEM (Wazuh), Services (Active Directory), postes clients, Attaque (Kali) et DMZ (applis web vulnérables). Journal de bord détaillé de la construction.
 
 ### Réalisés
+
+**[CFGnestedF2026](https://github.com/wjghandour/CFGnestedF2026)** *(dépôt privé, projet académique)*
+Reverse engineering de sauts indirects imbriqués sur 3 niveaux (`goto *ptr` en C++), le cas qui casse la reconstruction statique du CFG. Cross-compilation x86-64, ARM et RISC-V en `-O0`/`-O1`/`-O2`, puis analyse sous Ghidra pour comparer comment chaque architecture et niveau d'optimisation traduit les jumps indirects.
 
 **[tpot-honeypot-analysis](https://github.com/AxlK78/tpot-honeypot-analysis)**
 Déploiement du honeypot T-Pot 24.04 sur un VPS exposé (UFW + Tailscale), analyse de plus de 160 000 attaques en 70 h et rétro-ingénierie sous Ghidra d'un binaire WannaCry capturé via DoublePulsar.
